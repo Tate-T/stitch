@@ -1,3 +1,44 @@
 .stories {
-    
+  padding-top: 112px;
+  padding-bottom: 112px;
+
+  &__tittle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__item {
+    border: 1px solid #000;
+    padding: 32px;
+    width: 608px;
+    height: 220px;
+  }
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 24px;
+  }
+
+  &__subtittle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-scheme-1-text);
+  }
 }
