@@ -11,7 +11,7 @@
     />
     <title></title>
     <script type="module" crossorigin src="/stitch/commonHelpers.js"></script>
-    <link rel="stylesheet" crossorigin href="/stitch/assets/index-CtDrD-7Z.css">
+    <link rel="stylesheet" crossorigin href="/stitch/assets/index-DT1zsr8O.css">
   </head>
 
   <body>
@@ -363,14 +363,28 @@
           Describe Your Vision
           <input
             type="text"
-            class="vision__input"
+            class="vision__input2"
             placeholder="Tell us about the concept you're imagining. What's the story? What feeling should it evoke? The more details, the better we can understand your unique style."
           />
         </label>
         <button class="vision__button">Start the Conversation</button>
       </form>
     </div>
-    <img src="" alt="" class="vision__img" />
+    <picture class="vision__img">
+      <source
+        srcset="/stitch/assets/vision-img@desktop-x1-C3FZHPcu.webp 1x, /stitch/assets/vision-img@desktop-x2-DN072pg8.webp 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/stitch/assets/vision-img@tablet-x1-Dv8NktoZ.webp 1x, /stitch/assets/vision-img@tablet-x2-CP2xBMUe.webp 2x"
+        media="(min-width: 736px)"
+      />
+      <source
+        srcset="/stitch/assets/vision-img@mobile-x2-DrNUgycM.webp 1x, /stitch/assets/vision-img@mobile-x2-DrNUgycM.webp 2x"
+        media="(max-width: 735px)"
+      />
+      <img src="../imgs/desktop/vision-img@desktop-x2.webp" alt="" class="vision__img" />
+    </picture>
   </div>
 </section>
 
