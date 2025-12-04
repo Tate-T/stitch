@@ -29,13 +29,36 @@
           Describe Your Vision
           <input
             type="text"
-            class="vision__input"
+            class="vision__input2"
             placeholder="Tell us about the concept you're imagining. What's the story? What feeling should it evoke? The more details, the better we can understand your unique style."
           />
         </label>
         <button class="vision__button">Start the Conversation</button>
       </form>
     </div>
-    <img src="" alt="" class="vision__img" />
+    <picture class="vision__img">
+      <source
+        srcset="
+          ./imgs/desktop/vision-img@desktop-x1.webp 1x,
+          ./imgs/desktop/vision-img@desktop-x2.webp 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./imgs/tablet/vision-img@tablet-x1.webp 1x,
+          ./imgs/tablet/vision-img@tablet-x2.webp 2x
+        "
+        media="(min-width: 736px)"
+      />
+      <source
+        srcset="
+          ./imgs/mobile/vision-img@mobile-x2.webp 1x,
+          ./imgs/mobile/vision-img@mobile-x2.webp 2x
+        "
+        media="(max-width: 735px)"
+      />
+      <img src="../imgs/desktop/vision-img@desktop-x2.webp" alt="" class="vision__img" />
+    </picture>
   </div>
 </section>
