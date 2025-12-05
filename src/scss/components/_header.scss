@@ -1,0 +1,39 @@
+.header-container {
+display: flex;
+align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header-link {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+.header-button {
+border: 1px solid var(--color-neutral-darkest);
+padding: 8px 20px;
+width: 175px;
+height: 40px;
+font-family: "Roboto", sans-serif;
+color: white;
+background-color: black;
+}
+.header-logo {
+font-weight: 500;
+font-size: 31px;
+line-height: 140%;
+color: var(--color-scheme-1-text);
+font-family: "Roboto", sans-serif;
+}
+.header-list {
+display: flex;
+align-items: center;
+margin-left: 300px;
+gap: 32px;
+}
+.header-svg {
+width: 26px;
+height: 26px;
+}
