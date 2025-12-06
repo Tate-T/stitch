@@ -1,0 +1,34 @@
+.creations-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creations-section-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.creations-section-minititle {
+    font-size: 18px;
+    font-weight: 400;
+    width: 768px;
+    display: flex;
+    text-align: center;
+}
+
+.creations-section-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.creations-section-list-item {
+
+}
+
+.creations-list-item-img {
+    width: 634px;
+    height: 356px;
+}
