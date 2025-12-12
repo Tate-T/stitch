@@ -26,7 +26,8 @@ display: flex;
 }
 .header-button {
 display: none;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 768px) {
+display: flex;
     border: 1px solid var(--color-neutral-darkest);
 padding: 8px 20px;
 width: 175px;
@@ -34,6 +35,11 @@ height: 40px;
 font-family: "Roboto", sans-serif;
 color: white;
 background-color: black;
+
+
+  }
+  @media screen and (min-width: 1280px) {
+
   } 
 }
 .header-logo {
@@ -47,9 +53,8 @@ font-family: "Roboto", sans-serif;
 display: flex;
 align-items: center;
 margin-left: 50px;
-gap: 16px;
   @media screen and (min-width: 768px) {
-margin-left: 280px;
+margin-left: 264px;
 gap: 16px;
 
   }
@@ -63,6 +68,7 @@ width: 36px;
 height: 34px;
 }
 .header-mobile-button {
+margin-left: auto;
 border: 1px solid black;
 padding: 8px;
 width: 40px;
@@ -72,6 +78,7 @@ height: 40px;
 padding: 8px;
 width: 40px;
 height: 40px;
+
   }
   @media screen and (min-width: 1280px) {
     display: none;
