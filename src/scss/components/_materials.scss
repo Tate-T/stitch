@@ -22,10 +22,11 @@
 
 .materials-section-list-item {
     width: 252.8px;
+    position: relative;
 }
 
 .materials-list-item-img {
-    position: relative;
+
 }
 
 .materials-item-text-box {
@@ -35,7 +36,8 @@
     flex-direction: column;
     gap: 12px;
     margin: 12px;
-    bottom: -350px;
+    bottom: 0;
+    left: 0;
 }
 
 .materials-list-item-title {
