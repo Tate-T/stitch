@@ -1,52 +1,95 @@
 .crafted {
-
 }
 .box-crafted {
 }
 .crafted-title {
-font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 48px;
-line-height: 120%;
-color: var(--color-scheme-1-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--color-scheme-1-text);
+  @media screen and (min-width: 704px) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: var(--color-scheme-1-text);
+  }
+  @media screen and (min-width: 1312px) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--color-scheme-1-text);
+  }
 }
 .crafted-so-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: var(--color-scheme-1-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-scheme-1-text);
 }
 .crafted-box-title {
-font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 
-font-weight: 700;
-font-size: 20px;
-line-height: 140%;
-color: var(--color-scheme-1-text);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--color-scheme-1-text);
 }
 .crafted-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: var(--color-scheme-1-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-scheme-1-text);
 }
 .crafted-photo {
-width: 616px;
-height: 657px;
+  width: 335px;
+  height: 357px;
+  margin-top: 40px;
+  @media screen and (min-width: 704px) {
+    margin-top: 40px;
+    width: 704px;
+    height: 750px;
+  }
+  @media screen and (min-width: 1312px) {
+    margin-top: 0;
+    width: 616px;
+    height: 657px;
+  }
 }
 .crafted-container {
+  @media screen and (min-width: 704px) {
+  }
+  @media screen and (min-width: 1312px) {
     display: flex;
+  }
 }
 .crafted-cont {
+  // flex-direction: column;
+  margin-top: 65px;
+  gap: 30px;
+  @media screen and (min-width: 704px) {
     display: flex;
-    // flex-direction: column;
-    margin-top: 65px;
-    gap: 30px;
+  }
+  @media screen and (min-width: 1312px) {
+  }
 }
 .crafted-wrapper {
-display: flex;
-flex-direction: column;
-margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.crafted-box2 {
+// margin-top: 32px;
+}
+.crafted-box3 {
+margin-top: 32px;
+  @media screen and (min-width: 704px) {
+ margin-top: 0;
+  }
+  @media screen and (min-width: 1312px) {
+  }
 }
