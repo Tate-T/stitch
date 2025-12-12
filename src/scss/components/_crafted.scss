@@ -1,0 +1,52 @@
+.crafted {
+
+}
+.box-crafted {
+}
+.crafted-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+color: var(--color-scheme-1-text);
+}
+.crafted-so-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+.crafted-box-title {
+font-family: "Roboto", sans-serif;
+
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+color: var(--color-scheme-1-text);
+}
+.crafted-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+.crafted-photo {
+width: 616px;
+height: 657px;
+}
+.crafted-container {
+    display: flex;
+}
+.crafted-cont {
+    display: flex;
+    // flex-direction: column;
+    margin-top: 65px;
+    gap: 30px;
+}
+.crafted-wrapper {
+display: flex;
+flex-direction: column;
+margin-right: 40px;
+}
