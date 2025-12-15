@@ -6,6 +6,7 @@
   }
 }
 .hero-ctn {
+
     text-align: center;
   @media screen and (min-width: 704px) {
     display: flex;
@@ -92,6 +93,9 @@
   width: 335px;
   height: 188px;
   margin-top: 40px;
+  
+//   margin-left: 130px;
+
   @media screen and (min-width: 704px) {
     width: 704px;
     height: 396px;
@@ -102,6 +106,7 @@
   }
 }
 .hero-box {
+
   @media screen and (min-width: 704px) {
     margin-right: 80px;
   }
