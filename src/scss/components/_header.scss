@@ -84,6 +84,15 @@ height: 40px;
     display: none;
   } 
 }
-.hfhfhfh {
-color: red;
+.header-button-svg {
+width: 19px;
+height: 19px;
+fill: #000;
+  @media screen and (min-width: 704px) {
+
+
+  }
+  @media screen and (min-width: 1312px) {
+    display: none;
+  } 
 }
