@@ -1,16 +1,36 @@
-menu {
+.no-scroll {
+  position: fixed;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     opacity: 1;
+     
      padding-top: 11px;
-     padding-right: 32px;
-     padding-left: 32px;
+     padding-right: 26px;
+     padding-left: 26px;
      padding-bottom: 52px;
      display: block;
+     
+     
 
      @media screen and (min-width: 704px) {
     }
   
     @media screen and (min-width: 1312px) {
-        display: none;
+        opacity: 0;
     }
+}
+
+menu {
+  background-color: white;
+     
+}
+
+.is-hidden {
+  // display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-box {
