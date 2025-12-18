@@ -1,6 +1,11 @@
 .creations-section {
     padding-top: 112px;
     padding-bottom: 112px;
+
+    @media screen and (min-width: 1312px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 .creations-section-container {
@@ -15,7 +20,7 @@
   font-weight: 700;
   font-size: 36px;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1312px) {
     font-weight: 700;
     font-size: 48px;
   }
@@ -34,7 +39,7 @@
     width: 704px;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1312px) {
     font-weight: 700;
     font-size: 18px;
     width: 768px;

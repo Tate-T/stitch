@@ -1,41 +1,85 @@
 .section-ones {
     display: flex;
-    flex-direction: row;
-    gap: 80px;
     padding-top: 112px;
     padding-bottom: 112px;
+    
+    @media screen and (min-width: 1312px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.section-ones-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    @media screen and (min-width: 1312px) {
+        flex-direction: row;
+  }
 }
 
 .section-ones-title-box {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 335px;
     gap: 24px;
+
+    @media screen and (min-width: 704px) {
+    width: 380px;
+  }
 }
 
 .section-ones-title {
+    font-family: "Roboto";
     font-weight: 700;
+    font-size: 36px;
+
+    @media screen and (min-width: 1312px) {
     font-size: 48px;
+  }
 }
 
 .section-ones-minititle {
+    font-family: "Roboto";
     font-weight: 400;
+    font-size: 16px;
+
+    @media screen and (min-width: 1312px) {
     font-size: 18px;
+  }
 }
 
 .section-ones-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    width: 335px;
+    height: 812px;
+    flex-direction: row;
+
+    @media screen and (min-width: 704px) {
+    width: 704px;
+    height: 510px;
+  }
+  @media screen and (min-width: 1312px) {
     width: 852px;
     height: 484px;
+  }
 }
 
 .section-ones-list-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 143.5px;
+
+    @media screen and (min-width: 704px) {
+    width: 328px;
+  }
+  @media screen and (min-width: 1312px) {
     width: 360px;
+  }
 }
 
 .ones-list-item-svg {
@@ -45,11 +89,18 @@
 }
 
 .ones-list-item-title {
+    font-family: "Roboto";
     font-weight: 700;
+    font-size: 24px;
+    
+    @media screen and (min-width: 1312px) {
     font-size: 32px;
+  }
 }
 
 .ones-list-item-description {
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
 }
