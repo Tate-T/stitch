@@ -27,14 +27,20 @@
     display: flex;
     border: 1px solid var(--color-neutral-darkest);
     padding: 8px 20px;
-    width: 175px;
+    width: 180px;
     height: 40px;
     font-family: "Roboto", sans-serif;
     color: white;
     background-color: black;
+    animation-delay: 2s;
   }
   @media screen and (min-width: 1312px) {
   }
+}
+.header-button:hover {
+color: #000;
+  background-color: white;
+      border: 1px solid black;
 }
 .header-logo {
   font-weight: 500;
