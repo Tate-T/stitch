@@ -6,9 +6,10 @@
   // outline: solid red;
 
   @media screen and (max-width: 703px) {
-    width: 335px;
-    padding-left: 0;
-  padding-right: 0;
+    // width: 336px;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   @media screen and (min-width: 736px) {
@@ -17,8 +18,8 @@
   padding-right: 16px;
   }
 
-  @media screen and (min-width: 1312px) {
-    width: 1312px;
+  @media screen and (min-width: 1344px) {
+    width: 1344px;
     padding-left: 16px;
   padding-right: 16px;
   }
