@@ -3,7 +3,7 @@
     padding-top: 64px;
     padding-bottom: 64px;
     
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -14,7 +14,7 @@
     flex-direction: column;
     gap: 80px;
 
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
         flex-direction: row;
   }
 }
@@ -25,7 +25,7 @@
     width: 335px;
     gap: 24px;
 
-    @media screen and (min-width: 704px) {
+    @media screen and (min-width: 736px) {
     width: 380px;
   }
 }
@@ -35,7 +35,7 @@
     font-weight: 700;
     font-size: 36px;
 
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
     font-size: 48px;
   }
 }
@@ -45,7 +45,7 @@
     font-weight: 400;
     font-size: 16px;
 
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
     font-size: 18px;
   }
 }
@@ -58,11 +58,11 @@
     height: 812px;
     flex-direction: row;
 
-    @media screen and (min-width: 704px) {
-    width: 704px;
+    @media screen and (min-width: 736px) {
+    width: 736px;
     height: 510px;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     width: 852px;
     height: 484px;
   }
@@ -74,10 +74,10 @@
     gap: 24px;
     width: 143.5px;
 
-    @media screen and (min-width: 704px) {
+    @media screen and (min-width: 736px) {
     width: 328px;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     width: 360px;
   }
 }
@@ -93,7 +93,7 @@
     font-weight: 700;
     font-size: 24px;
     
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
     font-size: 32px;
   }
 }

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
 
-    @media screen and (min-width: 1312px) {
+    @media screen and (min-width: 1344px) {
         padding-top: 112px;
     padding-bottom: 112px;
     }
@@ -22,7 +22,7 @@
   font-weight: 700;
   font-size: 36px;
 
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-weight: 700;
     font-size: 48px;
   }
@@ -37,11 +37,11 @@
   font-size: 16px;
   width: 335px;
 
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     width: 704px;
   }
 
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-weight: 700;
     font-size: 18px;
     width: 768px;
