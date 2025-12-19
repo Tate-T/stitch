@@ -54,32 +54,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
-    width: 335px;
-    height: 812px;
     flex-direction: row;
-
-    @media screen and (min-width: 736px) {
-    width: 736px;
-    height: 510px;
-  }
-  @media screen and (min-width: 1344px) {
-    width: 852px;
-    height: 484px;
-  }
 }
 
 .section-ones-list-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 143.5px;
-
-    @media screen and (min-width: 736px) {
-    width: 328px;
-  }
-  @media screen and (min-width: 1344px) {
-    width: 360px;
-  }
 }
 
 .ones-list-item-svg {
