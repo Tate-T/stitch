@@ -2,15 +2,16 @@
   width: 100%;
   margin-left:  auto;
   margin-right: auto;
+  padding-left: 3px;
+  padding-right: 3px;
   
   // outline: solid red;
 
-  @media screen and (max-width: 703px) {
-    // width: 336px;
-    width: 100%;
-    padding-left: 3px;
-    padding-right: 3px;
-  }
+  // @media screen and (max-width: 703px) {
+  //   // width: 336px;
+  //   width: 100%;
+  //   
+  // }
 
   @media screen and (min-width: 736px) {
     width: 736px;
