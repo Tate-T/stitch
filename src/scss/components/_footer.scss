@@ -4,9 +4,9 @@
   padding-top: 5px;
   padding-bottom: 5px;
   flex-direction: column;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
   }
 }
 .footer-link {
@@ -15,14 +15,14 @@
   font-size: 16px;
   line-height: 150%;
   color: var(--color-scheme-1-text);
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: var(--color-scheme-1-text);
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -42,12 +42,12 @@
   margin-top: 32px;
   gap: 32px;
   display: flex;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     flex-direction: row;
     display: flex;
     gap: 31px;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     display: flex;
     // align-items: center;
     margin-left: 300px;
@@ -61,9 +61,9 @@
   text-align: center;
 
 
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
       width: 26px;
   height: 26px;
   }
@@ -75,14 +75,14 @@
   font-size: 37px;
   line-height: 140%;
   color: var(--color-scheme-1-text);
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 37px;
     line-height: 140%;
     color: var(--color-scheme-1-text);
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -92,7 +92,7 @@
 }
 .footer-line {
   border: 1px solid black;
-  max-width: 1312px;
+  max-width: 1344px;
   width: 100%;
   // width: 100%;
   // padding-right: 100px;
@@ -104,11 +104,11 @@
   flex-direction: column;
   display: flex;
 
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     display: flex;
     flex-direction: column;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     display: flex;
     align-items: center;
     // justify-content: center;
@@ -123,14 +123,14 @@
   line-height: 150%;
   color: var(--color-scheme-1-text);
 
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     color: var(--color-scheme-1-text);
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -144,11 +144,11 @@
   justify-content: center;
 }
 .footer-nav {
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     align-items: center;
     justify-content: center;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     display: flex;
   }
 }
@@ -171,7 +171,7 @@
 //   flex-direction: row;
   margin-top: 32px;
   margin-bottom: 32px;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     margin-left: 300px;
     margin-top: 32px;
     margin-bottom: 80px;
@@ -179,7 +179,7 @@
       align-items: start;
       justify-content: start;
     }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     margin-left: 160px;
     margin-bottom: 30px;
   }
@@ -190,7 +190,7 @@
     align-items: center;
     justify-content: center;
     
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     display: flex;
   }
 }

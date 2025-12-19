@@ -8,14 +8,14 @@
   font-size: 36px;
   line-height: 120%;
   color: var(--color-scheme-1-text);
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
     color: var(--color-scheme-1-text);
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -46,24 +46,22 @@
   color: var(--color-scheme-1-text);
 }
 .crafted-photo {
-  width: 335px;
-  height: 357px;
   margin-top: 40px;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     margin-top: 40px;
     width: 704px;
     height: 750px;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     margin-top: 0;
     width: 616px;
     height: 657px;
   }
 }
 .crafted-container {
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
     display: flex;
   }
 }
@@ -71,10 +69,10 @@
   // flex-direction: column;
   margin-top: 65px;
   gap: 30px;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     display: flex;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
   }
 }
 .crafted-wrapper {
@@ -83,13 +81,13 @@
   margin-right: 40px;
 }
 .crafted-box2 {
-// margin-top: 32px;
+// margin-top: 32px; 1
 }
 .crafted-box3 {
 margin-top: 32px;
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
  margin-top: 0;
   }
-  @media screen and (min-width: 1312px) {
+  @media screen and (min-width: 1344px) {
   }
 }
