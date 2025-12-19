@@ -13,10 +13,33 @@
         <button class="hero-button animate__pulse">How It Works</button>
       </div>
     </div>
-    <img
-      class="hero-photo"
-      src="./imgs/desktop/hero-img@desktop-x1.webp"
-      alt="2-big-boys"
-    />
+    <picture>
+      <source
+        srcset="
+          ./imgs/desktop/hero-img@desktop-x1.webp 1x,
+          ./imgs/desktop/hero-img@desktop-x2.webp 2x
+        "
+        media="(min-width: 1312px)"
+      />
+      <source
+        srcset="
+          ./imgs/tablet/hero-img@tablet-x1.webp 1x,
+          ./imgs/tablet/hero-img@tablet-x2.webp 2x
+        "
+        media="(min-width: 704px)"
+      />
+      <source
+        srcset="
+          ./imgs/mobile/hero-img@mobile-x1.webp 1x,
+          ./imgs/mobile/hero-img@mobile-x2.webp 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img
+        class="hero-photo"
+        src="./imgs/desktop/hero-img@desktop-x1.webp"
+        alt="2-big-boys"
+      />
+    </picture>
   </div>
 </section>
