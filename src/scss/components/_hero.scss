@@ -5,6 +5,9 @@ padding-top: 60px;
   @media screen and (min-width: 1344px) {
   }
 }
+.hero-container {
+
+}
 .hero-ctn {
   text-align: center;
   @media screen and (min-width: 736px) {
@@ -96,18 +99,17 @@ padding-top: 60px;
   transition-duration: 850ms;
 }
 .hero-photo {
-  width: 335px;
-  height: 188px;
   margin-top: 40px;
+  width: 100%;
 
   //   margin-left: 130px;
 
   @media screen and (min-width: 736px) {
-    width: 704px;
+    width: 736px;
     height: 396px;
   }
   @media screen and (min-width: 1344px) {
-    width: 1312px;
+    width: 1344px;
     height: 738px;
   }
 }
