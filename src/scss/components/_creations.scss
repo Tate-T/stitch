@@ -1,11 +1,11 @@
 .creations-section {
-    padding-top: 112px;
-    padding-bottom: 112px;
-
-    @media screen and (min-width: 1312px) {
     padding-top: 64px;
     padding-bottom: 64px;
-  }
+
+    @media screen and (min-width: 1312px) {
+        padding-top: 112px;
+    padding-bottom: 112px;
+    }
 }
 
 .creations-section-container {
