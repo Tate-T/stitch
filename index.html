@@ -14,13 +14,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title></title>
     <script type="module" crossorigin src="/stitch/commonHelpers.js"></script>
-    <link rel="stylesheet" crossorigin href="/stitch/assets/index-Cwx3kOPL.css">
+    <link rel="stylesheet" crossorigin href="/stitch/assets/index-u2dfXYps.css">
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" id="header">
   <div class="container header-container">
     <!-- <div class="header-box"> -->
     <svg class="header-svg">
@@ -31,22 +32,22 @@
     <nav class="header-nav">
       <ul class="header-list">
         <li class="header-item">
-          <a class="header-link" href="">Manifesto</a>
+          <a class="header-link" href="#ones">Manifesto</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">The Process</a>
+          <a class="header-link" href="#concept">The Process</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">Our Works</a>
+          <a class="header-link" href="#creations">Our Works</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">Our Principles</a>
+          <a class="header-link" href="#crafted">Our Principles</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">Materials</a>
+          <a class="header-link" href="#materials">Materials</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">Testimonials</a>
+          <a class="header-link" href="#stories">Testimonials</a>
         </li>
         <li class="header-item">
           <button class="header-button animate__pulse">Start Your Creation</button>
@@ -78,22 +79,22 @@
       </div>
       <ul class="menu-list">
         <li class="menu-item">
-          <a class="menu-link" href="./ones.html">Manifesto</a>
+          <a class="menu-link" href="#ones" data-menu-close>Manifesto</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="./concept.html">The Process</a>
+          <a class="menu-link" href="#concept" data-menu-close>The Process</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="./creations.html">Our Works</a>
+          <a class="menu-link" href="#creations">Our Works</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="./crafted.html">Our Principles</a>
+          <a class="menu-link" href="#crafted">Our Principles</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="./materials.html">Materials</a>
+          <a class="menu-link" href="#materials">Materials</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="./stories.html">Testimonials</a>
+          <a class="menu-link" href="#stories">Testimonials</a>
         </li>
       </ul>
 
@@ -105,7 +106,7 @@
     
 
 
-    <section class="hero">
+    <section class="hero" id="hero">
   <div class="container hero-container">
     <div class="hero-ctn">
       <div class="hero-box">
@@ -128,7 +129,7 @@
   </div>
 </section>
 
-    <section class="section-ones">
+    <section class="section-ones" id="ones">
   <div class="container section-ones-container">
   <div class="section-ones-title-box">
     <h2 class="section-ones-title">For the Ones Who Stand Out.</h2>
@@ -186,7 +187,7 @@
   </ul>
   </div>
 </section>
-    <section class="concept">
+    <section class="concept" id="concept">
   <div class="container concept__container">
     <h2 class="concept__tittle">From Concept to Reality.</h2>
     <div class="concept__box2">
@@ -255,7 +256,7 @@
     </div>
   </div>
 </section>
-    <section class="creations-section">
+    <section class="creations-section" id="creations">
   <div class="container creations-section-container">
   <h3 class="creations-section-title">Our Latest Creations</h3>
   <p class="creations-section-descripton">
@@ -396,7 +397,7 @@
 </section>
 
 
-    <section class="crafted">
+    <section class="crafted" id="crafted">
   <div class="container crafted-container">
     <div class="crafted-wrapper">
     <div class="box-crafted">
@@ -439,7 +440,7 @@
 
 </section>
 
-    <section class="materials-section container">
+    <section class="materials-section container" id="stories">
   <h2 class="materials-section-title">Our Materials</h2>
   <ul class="materials-section-list">
     <li class="materials-section-list-item1">
@@ -584,11 +585,11 @@
     </li>
   </ul>
 </section>
-    <section class="stories">
+    <section class="stories" id="stories">
   <div class="container stories__container">
     <h2 class="stories__tittle">Real Stories, Real Style</h2>
     <ul class="stories__list">
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInLeft">
         <p class="stories__text">
           "The entire process was a true collaboration. They took my scattered
           ideas and turned them into a jacket that's better than I could have
@@ -597,7 +598,7 @@
         </p>
         <h3 class="stories__subtittle">— Alex Chen</h3>
       </li>
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInRight">
         <p class="stories__text">
           "You can feel the difference in quality instantly. This isn't fast
           fashion; it's a piece of wearable art that was built to last. It’s the
@@ -606,7 +607,7 @@
         </p>
         <h3 class="stories__subtittle">— Jordan Smith</h3>
       </li>
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInLeft">
         <p class="stories__text">
           "I was so tired of seeing the same brands and logos everywhere.
           Finding this service was a complete game-changer. They understood the
@@ -615,7 +616,7 @@
         </p>
         <h3 class="stories__subtittle">— Maya Rodriguez</h3>
       </li>
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInRight">
         <p class="stories__text">
           "I was a bit nervous about the custom process, but they made it
           incredibly easy and intuitive. The communication was excellent every
@@ -624,7 +625,7 @@
         </p>
         <h3 class="stories__subtittle">— Ben Carter</h3>
       </li>
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInLeft">
         <p class="stories__text">
           "This is more than just a piece of clothing; it's my personality in
           fabric form. They managed to capture my aesthetic perfectly and
@@ -633,7 +634,7 @@
         </p>
         <h3 class="stories__subtittle">— Chloe Kim</h3>
       </li>
-      <li class="stories__item">
+      <li class="stories__item animate__fadeInRight">
         <p class="stories__text">
           "Honestly, they exceeded all of my expectations. The craftsmanship is
           truly next-level, and the final piece is an absolute showstopper. If
@@ -646,7 +647,7 @@
   </div>
 </section>
 
-    <section class="vision">
+    <section class="vision" id="vision">
   <div class="container vision__container">
     <div class="vision__box">
       <h2 class="vision__tittle">Bring Your Vision to Life</h2>
@@ -702,7 +703,7 @@
   </div>
 </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
   <div class="container footer-container">
     <div class="footer-box">
       <div class="footer-bx1">
