@@ -1,6 +1,8 @@
 .creations-section {
     padding-top: 64px;
     padding-bottom: 64px;
+    display: flex;
+    align-items: center;
 
     @media screen and (min-width: 1312px) {
         padding-top: 112px;
