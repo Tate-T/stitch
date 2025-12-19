@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   @media screen and (min-width: 704px) {
+    margin-left: auto;
+    justify-content: flex-end;
   }
   @media screen and (min-width: 1312px) {
     padding-top: 5px;
@@ -49,6 +51,7 @@
   line-height: 140%;
   color: var(--color-scheme-1-text);
   font-family: "Roboto", sans-serif;
+  margin-right: auto;
 }
 .header-list {
   display: flex;
@@ -56,12 +59,13 @@
   margin-left: 50px;
   @media screen and (min-width: 704px) {
     margin-left: 264px;
+        justify-content: flex-end;
     gap: 16px;
   }
   @media screen and (min-width: 1312px) {
     margin-left: 300px;
     gap: 31px;
-    justify-content: flex-end;
+
   }
 }
 .header-svg {
