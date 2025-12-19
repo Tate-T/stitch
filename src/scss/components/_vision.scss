@@ -113,6 +113,7 @@
     }
 &:hover {
   border: 1px solid #aaa;
+  transition-duration: 850ms;
 }
     
   }
@@ -133,6 +134,7 @@
 
     &:hover {
       border: 1px solid #aaa;
+      transition-duration: 850ms;
     }
   }
 
@@ -158,6 +160,7 @@
 &:hover {
   color: #000;
   background-color: white;
+  transition-duration: 850ms;
 }
     
   }
@@ -181,5 +184,14 @@
 .animate__pulse {
   animation-duration: 2000ms;
   animation-iteration-count: infinite;
+
   // animation-timing-function: inherit;
 }
+
+
+// .animate__pulse:hover {
+//   animation-duration: 2000ms;
+  
+
+//   // animation-timing-function: inherit;
+// }
