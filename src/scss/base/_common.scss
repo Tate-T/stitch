@@ -11,14 +11,15 @@
   padding-right: 0;
   }
 
-  @media screen and (min-width: 704px) {
+  @media screen and (min-width: 736px) {
     width: 704px;
-    
+    padding-left: 16px;
+  padding-right: 16px;
   }
 
   @media screen and (min-width: 1312px) {
-    width: 1318px;
-    padding-left: 3px;
-  padding-right: 3px;
+    width: 1312px;
+    padding-left: 16px;
+  padding-right: 16px;
   }
 }
