@@ -22,7 +22,7 @@
 .section-ones-title-box {
     display: flex;
     flex-direction: column;
-    width: 335px;
+    width: 100%;
     gap: 24px;
     flex-shrink: 0;
 
@@ -64,8 +64,16 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 402px;
-    outline: red 1px solid;
+    max-width: 128px;
+    
+    // outline: red 1px solid;
+    @media screen and (min-width: 736px) {
+      max-width: 328px;
+    }
+  
+    @media screen and (min-width: 1344px) {
+      max-width: 402px;
+    }
 }
 
 .ones-list-item-svg {

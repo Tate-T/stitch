@@ -1,9 +1,11 @@
-.materials-section {
+.materials-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 64px;
     padding-bottom: 64px;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (min-width: 1344px) {
         padding-top: 112px;
@@ -37,7 +39,7 @@
 .materials-section-list-item1 {
     overflow: hidden;
     position: relative;
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         width: 226.67px;
@@ -50,7 +52,7 @@
 .materials-section-list-item2 {
     overflow: hidden;
     position: relative;
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         width: 346px;
@@ -61,7 +63,7 @@
 }
 
 .materials-list-item-img1 {
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         width: 226.67px;
@@ -72,7 +74,7 @@
 }
 
 .materials-list-item-img2 {
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         width: 346px;
@@ -91,7 +93,7 @@
     bottom: 0;
     left: 0;
     height: 133px;
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         height: 157px;
@@ -112,7 +114,7 @@
     bottom: 0;
     left: 0;
     height: 133px;
-    width: 335px;
+    width: 100%;
 
     @media screen and (min-width: 736px) {
         height: 133px;

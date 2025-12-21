@@ -78,7 +78,13 @@
 .crafted-wrapper {
   display: flex;
   flex-direction: column;
-  margin-right: 40px;
+  
+  @media screen and (min-width: 736px) {
+    
+  }
+  @media screen and (min-width: 1344px) {
+    margin-right: 40px;
+  }
 }
 .crafted-box2 {
 // margin-top: 32px; 1
