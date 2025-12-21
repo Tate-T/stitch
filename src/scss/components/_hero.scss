@@ -69,7 +69,8 @@ padding-top: 60px;
   background-color: black;
   margin-top: 32px;
   padding: 12px 24px;
-  width: 320px;
+  width: 100%;
+  max-width: 335px;
   height: 48px;
   @media screen and (min-width: 736px) {
     border: 1px solid black;
