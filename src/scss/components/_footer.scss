@@ -1,3 +1,16 @@
+.footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  @media screen and (min-width: 736px) {
+    
+  }
+  @media screen and (min-width: 1344px) {
+    padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 2px solid #000;
+  }
+}
+
 .footer-container {
   display: flex;
   // align-items: center;
