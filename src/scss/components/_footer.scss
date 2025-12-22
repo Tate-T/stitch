@@ -91,6 +91,7 @@
   }
 }
 .footer-line {
+
   border: 1px solid black;
   max-width: 1344px;
   width: 100%;
@@ -98,6 +99,12 @@
   // padding-right: 100px;
   height: 0px;
   // align-items: center;
+    @media screen and (min-width: 736px) {
+    margin-top: 80px;
+  }
+  @media screen and (min-width: 1344px) {
+    font-family: "Roboto", sans-serif;
+  }
 }
 .footer-box {
   text-align: center;
@@ -174,7 +181,8 @@
     align-items: center;
     justify-content: center;
 //   flex-direction: row;
-  margin-top: 32px;
+  margin-top: 40px;
+//   1
   margin-bottom: 32px;
   @media screen and (min-width: 736px) {
     margin-left: 300px;

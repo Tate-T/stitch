@@ -33,6 +33,13 @@
   }
 }
 .crafted-so-text {
+  margin-top: 24px;
+  @media screen and (min-width: 736px) {
+    margin-top: 32px;
+  }
+  @media screen and (min-width: 1344px) {
+    margin-top: 24px;
+  }
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -53,6 +60,7 @@
   font-size: 16px;
   line-height: 150%;
   color: var(--color-scheme-1-text);
+  margin-top: 16px;
 }
 .crafted-photo {
   margin-top: 40px;
@@ -76,7 +84,7 @@
 }
 .crafted-cont {
   // flex-direction: column;
-  margin-top: 65px;
+  margin-top: 32px;
   gap: 30px;
   @media screen and (min-width: 736px) {
     display: flex;
@@ -87,21 +95,20 @@
 .crafted-wrapper {
   display: flex;
   flex-direction: column;
-  
-  @media screen and (min-width: 736px) {
-    
-  }
-  @media screen and (min-width: 1344px) {
-    margin-right: 40px;
-  }
+  margin-right: 24px;
 }
 .crafted-box2 {
-// margin-top: 32px; 1
+  margin-top: 32px;
+  @media screen and (min-width: 736px) {
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1344px) {
+  }
 }
 .crafted-box3 {
-margin-top: 32px;
+  margin-top: 32px;
   @media screen and (min-width: 736px) {
- margin-top: 0;
+    margin-top: 0;
   }
   @media screen and (min-width: 1344px) {
   }
