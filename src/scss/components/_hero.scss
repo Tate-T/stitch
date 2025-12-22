@@ -1,8 +1,11 @@
 .hero {
-padding-top: 60px;
+padding-top: 64px;
+padding-bottom: 64px;
   @media screen and (min-width: 736px) {
   }
   @media screen and (min-width: 1344px) {
+    padding-top: 112px;
+padding-bottom: 112px;
   }
 }
 .hero-container {
