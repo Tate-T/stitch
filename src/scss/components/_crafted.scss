@@ -9,6 +9,17 @@
   padding-top: 112px;
   }
 }
+
+.crafted-container {
+  @media screen and (min-width: 736px) {
+    
+  }
+  @media screen and (min-width: 1344px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .box-crafted {
 }
 .crafted-title {
@@ -73,6 +84,7 @@
     margin-top: 0;
     width: 616px;
     height: 657px;
+    margin-left: 80px;
   }
 }
 .crafted-container {
